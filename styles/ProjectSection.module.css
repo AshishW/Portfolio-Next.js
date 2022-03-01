@@ -1,0 +1,33 @@
+.projectList{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   padding: 5vw 2vw;
+}
+
+.projectCard{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectInfo{
+    margin: 2rem 2rem;
+}
+
+.thumbnail{
+    height: 150px;
+    width: 200px;
+   margin: 5px 5px;
+   position: relative;
+}
+
+.projectInfo a{
+    padding: 2px 2px;
+    width: 80px;
+    text-align: center;
+    margin: 5px 5px;
+}

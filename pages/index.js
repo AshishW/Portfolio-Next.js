@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import ProjectList from '../components/ProjectList'
 import Hero from '../components/Hero'
 import Contact from '../components/Contact'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -16,7 +17,6 @@ export default function Home() {
       {/* Hero Section */}
      
       <Hero/>
-
       {/* Projects Section */}
      
       <h1 id='projects-section' className='text-4xl text-center pt-5 pb-5 font-bold md:bg-gradient-to-b from-pink-50 to-white'>Projects</h1>

@@ -8,7 +8,7 @@ function ProjectList(){
     })
 
     return(
-        <div className={`${styles.projectList} bg-gradient-to-t from-pink-100 to-white`}>
+        <div className={`${styles.projectList} bg-gradient-to-t from-pink-100 to-white pt-5 pb-5`}>
             {
                 Data.map((item, i)=>{
                     return <ProjectCard

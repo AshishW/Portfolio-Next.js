@@ -2,11 +2,9 @@
    display: flex;
    flex-wrap: wrap;
    justify-content:center;
-   padding: 5vw 2vw;
 }
 
 .projectCard{
-    width: 15rem;
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
@@ -30,4 +28,10 @@
     width: 80px;
     text-align: center;
     margin: 5px 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .projectCard{
+        min-width:80%;
+    }
 }
